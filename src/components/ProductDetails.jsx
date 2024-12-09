@@ -50,15 +50,30 @@ const ProductDetails = ({onScrollToProductGrid}) => {
     return (
         <Box
             sx={{
-                padding: '3rem',
+                padding: '1rem',
                 background: 'linear-gradient(135deg, #ffffff, #f9f9ff)',
                 borderRadius: '16px',
                 boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)',
                 maxWidth: '80%',
-                margin: '2rem auto',
+                margin: '1rem auto',
                 animation: `${fadeIn} 1s ease-out`,
             }}
         >
+            <Box>
+                <Typography
+                            variant="h4"
+                            gutterBottom
+                            sx={{
+                                fontWeight: 'bold',
+                                fontSize: { xs: '2rem', md: '1.8rem' },
+                                color: '#1976d2',
+                                textAlign: 'center',
+                                textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+                            }}
+                        >
+                            {name}
+                </Typography>
+            </Box>
             <Grid container spacing={4} alignItems="center">
                 {/* Блок с изображениями слева */}
                 <Grid item xs={12} md={6}>
@@ -94,19 +109,7 @@ const ProductDetails = ({onScrollToProductGrid}) => {
 
                 {/* Текстовые характеристики справа */}
                 <Grid item xs={12} md={6}>
-                    <Typography
-                        variant="h4"
-                        gutterBottom
-                        sx={{
-                            fontWeight: 'bold',
-                            fontSize: { xs: '2rem', md: '1.8rem' },
-                            color: '#1976d2',
-                            textAlign: 'center',
-                            textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
-                        }}
-                    >
-                        {name}
-                    </Typography>
+                    
 
                     <Typography
                         variant="body1"

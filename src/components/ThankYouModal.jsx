@@ -87,6 +87,11 @@ const ThankYouModal = ({ open, onClose, orderDetails }) => {
                             <br />
                             <strong>Телефон:</strong> {orderDetails.customer.phone}
                         </Typography>
+                        <Divider sx={{ my: 2 }} />
+                        <Typography variant="body2">
+                            <strong>Комментарий:</strong> {orderDetails.customer.comment}
+                            
+                        </Typography>
                     </Box>
                 )}
 

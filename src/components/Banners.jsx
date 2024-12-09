@@ -36,7 +36,8 @@ const Banners = () => {
           {/* Баннер */}
           <Box
             sx={{
-              width: "80%",
+              width: { sm: '50%', md: '80%' },
+              height: 'auto',
               maxHeight: "100%", // Ограничить высоту
               margin: "20px auto",
               borderRadius: "16px",

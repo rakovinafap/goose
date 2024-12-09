@@ -123,6 +123,109 @@
         "price": 549,
         "available": true,
         "image": "/images/products/g90r.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Гусь-обнимусь 160см Белый",
+        "price": 949,
+        "available": true,
+        "top": true,
+        "image": "/images/products/g160w.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Гусь-обнимусь 160см Серый",
+        "price": 949,
+        "priceOld": 1800,
+        "available": true,
+        "new": true,
+        "image": "/images/products/g160g.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Гусь-обнимусь 160см Желтый",
+        "price": 949,
+        "available": true,
+        "image": "/images/products/g160y.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Гусь-обнимусь 160см Розовый",
+        "price": 949,
+        "available": true,
+        "image": "/images/products/g160r.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Гусь-обнимусь 190см Белый",
+        "price": 1449,
+        "priceOld": 1800,
+        "available": true,
+        "top": true,
+        "image": "/images/products/g190w.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Гусь-обнимусь 190см Серый",
+        "price": 1449,
+        "priceOld": 1800,
+        "available": true,
+        "new": true,
+        "image": "/images/products/g190g.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Гусь-обнимусь 190см Желтый",
+        "price": 1449,
+        "new": true,
+        "priceOld": 1800,
+        "available": true,
+        "image": "/images/products/g190y.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Гусь-обнимусь 190см Розовый",
+        "price": 1449,
+        "new": true,
+        "priceOld": 1800,
+        "available": true,
+        "image": "/images/products/g190r.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Гусь-обнимусь 90см с пледом 190х105см Белый",
+        "price": 589,
+        "priceOld": 1800,
+        "available": true,
+        "top": true,
+        "image": "/images/products/gpledW.jpg"
+    },
+    {
+        "id": 26,
+       "name": "Гусь-обнимусь 90см с пледом 190х105см Серый",
+        "price": 589,
+        "priceOld": 1800,
+        "available": true,
+        "new": true,
+        "image": "/images/products/gpledG.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Гусь-обнимусь 90см с пледом 190х105см Желтый",
+        "price": 589,
+        "new": true,
+        "priceOld": 1800,
+        "available": true,
+        "image": "/images/products/gpledY.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Гусь-обнимусь 90см с пледом 190х105см Розовый",
+        "price": 589,
+        "new": true,
+        "priceOld": 1800,
+        "available": true,
+        "image": "/images/products/gpledR.jpg"
     }
     
 ]

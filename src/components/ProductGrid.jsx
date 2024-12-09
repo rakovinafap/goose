@@ -43,7 +43,7 @@ const ProductGrid = forwardRef((props, ref) => {
                 </Grid>
 
                 {products
-                    .sort((a, b) => (b.new === a.new ? 0 : b.new ? -1 : 1))
+                    .sort((a, b) => (b.new === a.new ? 0 : b.new ? 1 : -1))
                     .map((product) => {
                         const discountPercentage = product.priceOld
                             ? Math.round(((product.priceOld - product.price) / product.priceOld) * 100)

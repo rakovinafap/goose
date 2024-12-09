@@ -41,7 +41,7 @@ const DeliveryInfo = () => {
       >
         <CardContent>
           <Typography
-            variant="h4"
+            variant="h5"
             gutterBottom
             align="center"
             sx={{
@@ -62,7 +62,7 @@ const DeliveryInfo = () => {
           />
 
           <Typography
-            variant="h5"
+            variant="h6"
             gutterBottom
             sx={{ fontFamily: 'Comic Sans MS, sans-serif', color: '#007ACC' }}
           >
@@ -83,7 +83,7 @@ const DeliveryInfo = () => {
           />
 
           <Typography
-            variant="h5"
+            variant="h6"
             gutterBottom
             sx={{ fontFamily: 'Comic Sans MS, sans-serif', color: '#007ACC' }}
           >
@@ -103,7 +103,7 @@ const DeliveryInfo = () => {
           />
 
           <Typography
-            variant="h5"
+            variant="h6"
             gutterBottom
             sx={{ fontFamily: 'Comic Sans MS, sans-serif', color: '#007ACC' }}
           >
@@ -123,7 +123,7 @@ const DeliveryInfo = () => {
           />
 
           <Typography
-            variant="h5"
+            variant="h6"
             gutterBottom
             sx={{ fontFamily: 'Comic Sans MS, sans-serif', color: '#007ACC' }}
           >
