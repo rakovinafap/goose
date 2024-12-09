@@ -2,8 +2,8 @@
     {
         "id": 1,
         "name": "Гусь-обнимусь 50см Белый",
-        "price": 220,
-        "priceOld": 1200,
+        "price": 239,
+        "priceOld": 349,
         "available": true,
         "top": true,
         "image": "/images/products/g50w.jpg"
@@ -11,30 +11,34 @@
     {
         "id": 2,
         "name": "Гусь-обнимусь 50см Серый",
-        "price": 220,
-        "priceOld": 1800,
-        "available": false,
+        "price": 249,
+        "priceOld": 349,
+        "available": true,
         "new": true,
         "image": "/images/products/g50g.jpg"
     },
     {
         "id": 3,
         "name": "Гусь-обнимусь 50см Желтый",
-        "price": 220,
+        "price": 249,
+        "priceOld": 349,
+        "top": true,
         "available": true,
         "image": "/images/products/g50y.jpg"
     },
     {
         "id": 4,
         "name": "Гусь-обнимусь 50см Розовый",
-        "price": 220,
+        "price": 249,
+        "priceOld": 349,
         "available": true,
         "image": "/images/products/g50r2.jpg"
     },
     {
         "id": 5,
         "name": "Гусь-обнимусь 70см Белый",
-        "price": 249,
+        "price": 269,
+        "priceOld": 449,
         "available": true,
         "top": true,
         "image": "/images/products/g50w.jpg"
@@ -42,8 +46,8 @@
     {
         "id": 6,
         "name": "Гусь-обнимусь 70см Серый",
-        "price": 249,
-        "priceOld": 1800,
+        "price": 269,
+        "priceOld": 449,
         "available": true,
         "new": true,
         "image": "/images/products/g50g.jpg"
@@ -51,14 +55,17 @@
     {
         "id": 7,
         "name": "Гусь-обнимусь 70см Желтый",
-        "price": 249,
+        "price": 269,
+        "priceOld": 449,
+        "top": true,
         "available": true,
         "image": "/images/products/g50y.jpg"
     },
     {
         "id": 8,
         "name": "Гусь-обнимусь 70см Розовый",
-        "price": 249,
+        "price": 269,
+        "priceOld": 449,
         "available": true,
         "image": "/images/products/g50r2.jpg"
     },
@@ -66,6 +73,7 @@
         "id": 9,
         "name": "Гусь-обнимусь 90см Белый",
         "price": 389,
+        "priceOld": 549,
         "available": true,
         "top": true,
         "image": "/images/products/g90w.jpg"
@@ -74,8 +82,9 @@
         "id": 10,
         "name": "Гусь-обнимусь 90см Серый",
         "price": 389,
-        "priceOld": 1800,
+        "priceOld": 645,
         "available": true,
+        "top": true,
         "new": true,
         "image": "/images/products/g90g.jpg"
     },
@@ -83,6 +92,7 @@
         "id": 11,
         "name": "Гусь-обнимусь 90см Желтый",
         "price": 389,
+        "priceOld": 685,
         "available": true,
         "image": "/images/products/g90y.jpg"
     },
@@ -90,6 +100,7 @@
         "id": 12,
         "name": "Гусь-обнимусь 90см Розовый",
         "price": 389,
+        "priceOld": 645,
         "available": true,
         "image": "/images/products/g90r.jpg"
     },
@@ -97,6 +108,7 @@
         "id": 13,
         "name": "Гусь-обнимусь 110см Белый",
         "price": 549,
+        "priceOld": 845,
         "available": true,
         "top": true,
         "image": "/images/products/g90w.jpg"
@@ -105,7 +117,7 @@
         "id": 14,
         "name": "Гусь-обнимусь 110см Серый",
         "price": 549,
-        "priceOld": 1800,
+        "priceOld": 845,
         "available": true,
         "new": true,
         "image": "/images/products/g90g.jpg"
@@ -114,6 +126,7 @@
         "id": 15,
         "name": "Гусь-обнимусь 110см Желтый",
         "price": 549,
+        "priceOld": 845,
         "available": true,
         "image": "/images/products/g90y.jpg"
     },
@@ -121,6 +134,8 @@
         "id": 16,
         "name": "Гусь-обнимусь 110см Розовый",
         "price": 549,
+        "priceOld": 845,
+        "top": true,
         "available": true,
         "image": "/images/products/g90r.jpg"
     },
@@ -136,8 +151,9 @@
         "id": 18,
         "name": "Гусь-обнимусь 160см Серый",
         "price": 949,
-        "priceOld": 1800,
-        "available": true,
+        "priceOld": 1225,
+        "available": false,
+        "top": true,
         "new": true,
         "image": "/images/products/g160g.jpg"
     },
@@ -152,6 +168,8 @@
         "id": 20,
         "name": "Гусь-обнимусь 160см Розовый",
         "price": 949,
+        "priceOld": 1225,
+        "top": true,
         "available": true,
         "image": "/images/products/g160r.jpg"
     },
@@ -159,7 +177,7 @@
         "id": 21,
         "name": "Гусь-обнимусь 190см Белый",
         "price": 1449,
-        "priceOld": 1800,
+        "priceOld": 1645,
         "available": true,
         "top": true,
         "image": "/images/products/g190w.jpg"
@@ -168,7 +186,7 @@
         "id": 22,
         "name": "Гусь-обнимусь 190см Серый",
         "price": 1449,
-        "priceOld": 1800,
+        "priceOld": 1645,
         "available": true,
         "new": true,
         "image": "/images/products/g190g.jpg"
@@ -188,6 +206,7 @@
         "price": 1449,
         "new": true,
         "priceOld": 1800,
+        "top": true,
         "available": true,
         "image": "/images/products/g190r.jpg"
     },
@@ -195,14 +214,12 @@
         "id": 25,
         "name": "Гусь-обнимусь 90см с пледом 190х105см Белый",
         "price": 589,
-        "priceOld": 1800,
-        "available": true,
-        "top": true,
+        "available": false,
         "image": "/images/products/gpledW.jpg"
     },
     {
         "id": 26,
-       "name": "Гусь-обнимусь 90см с пледом 190х105см Серый",
+        "name": "Гусь-обнимусь 90см с пледом 190х105см Серый",
         "price": 589,
         "priceOld": 1800,
         "available": true,

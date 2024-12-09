@@ -38,27 +38,34 @@ const ProductGrid = forwardRef((props, ref) => {
                             marginBottom: '1.5rem',
                         }}
                     >
-                        Наша гусятня
+                        Выбери гуся
                     </Typography>
                 </Grid>
 
                 {products
-                    .sort((a, b) => (b.new === a.new ? 0 : b.new ? 1 : -1))
-                    .map((product) => {
-                        const discountPercentage = product.priceOld
-                            ? Math.round(((product.priceOld - product.price) / product.priceOld) * 100)
-                            : null;
+                        .sort((a, b) => {
+                            
+                            // Второе условие: сортируем по `available`
+                            if (a.available !== b.available) {
+                                return a.available ? -1 : 1;
+                            }
+                            return 0; // Если `new` и `available` одинаковые, сохраняем порядок
+                        })
+                        .map((product) => {
+                            const discountPercentage = product.priceOld
+                                ? Math.round(((product.priceOld - product.price) / product.priceOld) * 100)
+                                : null;
 
                         return (
                             <Grid item xs={6} sm={3} md={3} key={product.id}>
                                 <Card
                                     sx={{
-                                        height: { xs: '360px', sm: '400px', md: '370px' },
+                                        /* height: { sm: '400px', md: '400px', sx: '400px'}, */
                                         display: 'flex',
                                         flexDirection: 'column',
                                         position: 'relative',
                                         border: '4px solid #ddd',
-                                        borderRadius: '16px',
+                                        borderRadius: '20px',
                                         boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)',
                                         transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                                         '&:hover': {
@@ -82,7 +89,7 @@ const ProductGrid = forwardRef((props, ref) => {
                                                 label="Новинка"
                                                 color="success"
                                                 size="small"
-                                                sx={{ fontWeight: 'bold', opacity: '0.5' }}
+                                                sx={{ fontWeight: 'bold', opacity: '0.7', fontSize: '8px', height: '20px'}}
                                             />
                                         )}
                                         {product.top && (
@@ -90,7 +97,7 @@ const ProductGrid = forwardRef((props, ref) => {
                                                 label="Топ продаж"
                                                 color="primary"
                                                 size="small"
-                                                sx={{ fontWeight: 'bold', opacity: '0.5' }}
+                                                sx={{ fontWeight: 'bold', opacity: '0.7', fontSize: '8px', height: '20px'}}
                                             />
                                         )}
                                         {discountPercentage && (
@@ -98,7 +105,7 @@ const ProductGrid = forwardRef((props, ref) => {
                                                 label={`-${discountPercentage}%`}
                                                 color="error"
                                                 size="small"
-                                                sx={{ fontWeight: 'bold', opacity: '0.5' }}
+                                                sx={{ fontWeight: 'bold', opacity: '0.7', fontSize: '8px', height: '20px'}}
                                             />
                                         )}
                                     </Box>
@@ -112,7 +119,9 @@ const ProductGrid = forwardRef((props, ref) => {
                                             objectFit: 'contain',
                                             borderTopLeftRadius: '16px',
                                             borderTopRightRadius: '16px',
-                                            marginTop: '40px',
+                                            /* borderRadius: '16px', */
+                                            marginTop: '-2px',
+                                            
                                         }}
                                     />
 
@@ -127,15 +136,19 @@ const ProductGrid = forwardRef((props, ref) => {
                                         }}
                                     >
                                         <Typography
-                                            variant="body2"
-                                            sx={{
-                                                fontWeight: 'bold',
-                                                fontSize: { xs: '12px', sm: '14px' },
-                                                marginBottom: '0.5rem',
-                                            }}
-                                        >
-                                            {product.name}
-                                        </Typography>
+                                                variant="body2"
+                                                sx={{
+                                                    fontWeight: 'bold',
+                                                    fontSize: { xs: '12px', sm: '14px' },
+                                                    marginBottom: '0.5rem',
+                                                    overflow: 'hidden',
+                                                    display: '-webkit-box',
+                                                    WebkitBoxOrient: 'vertical',
+                                                    WebkitLineClamp: 2, // Указывает, что нужно оставить только 2 строки
+                                                }}
+                                            >
+                                                {product.name}
+                                         </Typography>
 
                                         <Box
                                             sx={{
