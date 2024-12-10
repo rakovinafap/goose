@@ -10,12 +10,20 @@ const OrderForm = ({ onOrderComplete }) => {
     const [phoneError, setPhoneError] = useState('');
     console.log('comment?', comment)
 
-    const TELEGRAM_TOKEN = '7819321916:AAHzQUqr04kkn0zTn7G1LhNvrXb7FScfYm0'; // Ваш токен бота
-    const CHAT_ID = '-1002281723213'; // Ваш chat ID
 
-    // Функция отправки данных в Telegram
+
+    const TELEGRAM_TOKEN = process.env.REACT_APP_TELEGRAM_TOKEN;
+    const CHAT_ID = process.env.REACT_APP_CHAT_ID;
+    
+  
+
+
     const sendToTelegram = async (orderData) => {
-       
+
+        console.log('TELEGRAM_TOKEN:', process.env.REACT_APP_TELEGRAM_TOKEN);
+        console.log('CHAT_ID:', process.env.REACT_APP_CHAT_ID);
+
+        
         const message = `
 Новый заказ:
         

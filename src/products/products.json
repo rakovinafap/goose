@@ -83,7 +83,7 @@
         "name": "Гусь-обнимусь 90см Серый",
         "price": 389,
         "priceOld": 645,
-        "available": true,
+        "available": false,
         "top": true,
         "new": true,
         "image": "/images/products/g90g.jpg"

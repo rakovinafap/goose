@@ -18,6 +18,7 @@ import {
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { useCart } from '../contexts/CartContext';
+import { Link } from 'react-router-dom';
 import OrderForm from './OrderForm';
 import ThankYouModal from '../components/ThankYouModal';
 
@@ -46,8 +47,19 @@ const Header = () => {
         <>
             <AppBar position="sticky" sx={{ background: 'linear-gradient(135deg, #2196f3, #00bcd4)', height: '60px' }}>
                 <Toolbar sx={{ justifyContent: 'space-between', alignItems: 'center', padding: '0 1.5rem' }}>
-                    <Box sx={{ display: 'flex', flexDirection: 'row-reverse', alignItems: 'center' }}>
-                        <Typography variant="h5" sx={{ fontWeight: 'bold', color: '#fff' }}>
+                    <Box 
+                    component="a" 
+                    href="/" 
+                    sx={{ 
+                        display: 'flex', 
+                        flexDirection: 'row-reverse', 
+                        alignItems: 'center',
+                        textDecoration: 'none',
+                        '&:hover': {
+                            color: '#ddd',
+                        }, 
+                    }}>
+                        <Typography   variant="h5" sx={{ fontWeight: 'bold', color: '#fff' }}>
                             Гусь-обнимусь
                         </Typography>
                         <Box
