@@ -22,17 +22,17 @@ const ThankYouModal = ({ open, onClose, orderDetails }) => {
                 }}
             >
                 <Typography id="order-success-modal-title" variant="h6" component="h2" sx={{ fontWeight: 'bold' }}>
-                    Спасибо за ваш заказ!
+                    Дякую за ваше замовлення!
                 </Typography>
                 <Typography sx={{ mt: 2, fontSize: '1rem', color: '#555' }}>
-                    Мы свяжемся с вами в ближайшее время.
+                    Ми зв'яжемося з вами найближчим часом.
                 </Typography>
 
                 {/* Заказ и фото товаров */}
                 {orderDetails && (
                     <Box sx={{ mt: 2, textAlign: 'left' }}>
                         <Typography variant="subtitle1" sx={{ fontWeight: 'bold', marginBottom: 2 }}>
-                            Ваш заказ:
+                            Ваше замовлення:
                         </Typography>
                         <Box>
                             {orderDetails.items.map((item) => (
@@ -79,17 +79,17 @@ const ThankYouModal = ({ open, onClose, orderDetails }) => {
                         </Box>
                         <Divider sx={{ my: 2 }} />
                         <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-                            Итог: {orderDetails.total} грн
+                            Всього: {orderDetails.total} грн
                         </Typography>
                         <Divider sx={{ my: 2 }} />
                         <Typography variant="body2">
-                            <strong>Имя:</strong> {orderDetails.customer.name}
+                            <strong>Ім'я:</strong> {orderDetails.customer.name}
                             <br />
                             <strong>Телефон:</strong> {orderDetails.customer.phone}
                         </Typography>
                         <Divider sx={{ my: 2 }} />
                         <Typography variant="body2">
-                            <strong>Комментарий:</strong> {orderDetails.customer.comment}
+                            <strong>Коментар:</strong> {orderDetails.customer.comment}
                             
                         </Typography>
                     </Box>
@@ -101,7 +101,7 @@ const ThankYouModal = ({ open, onClose, orderDetails }) => {
                     color="primary"
                     sx={{ mt: 3 }}
                 >
-                    Закрыть
+                    Закрити
                 </Button>
             </Box>
         </Modal>

@@ -91,7 +91,7 @@ const HeroSection = ({ onScrollToProductGrid }) => {
                         color: '#333',
                     }}
                 >
-                    Гусь-обнимусь
+                    Гусак-обіймусь
                 </Typography>
                 <Typography
                     variant="body1"
@@ -102,7 +102,8 @@ const HeroSection = ({ onScrollToProductGrid }) => {
                         maxWidth: '500px',
                     }}
                 >
-                    Мы создаём мягкие, уютные и безопасные игрушки, которые подарят вашему ребенку тепло и радость. Наши товары – это больше, чем просто игрушки, это настоящие друзья для ваших близких.
+                    Ми створюємо м'які, затишні та безпечні іграшки, які подарують вашій дитині тепло та радість. <br/>
+                    Наші товари – це більше ніж просто іграшки, це справжні друзі для ваших близьких.
                 </Typography>
                 <Button
                     variant="contained"
@@ -123,7 +124,7 @@ const HeroSection = ({ onScrollToProductGrid }) => {
                         },
                     }}
                 >
-                    Купить сейчас
+                    Придбати зараз
                 </Button>
             </Box>
 
@@ -138,7 +139,7 @@ const HeroSection = ({ onScrollToProductGrid }) => {
                 <Box
                     component="img"
                     src="/images/goosemain.png"
-                    alt="Гусь-обнимусь"
+                    alt="Гусак-обіймусь"
                     sx={{
                         width: '100%',
                         maxWidth: '500px',

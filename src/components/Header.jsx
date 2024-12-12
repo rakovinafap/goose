@@ -60,12 +60,12 @@ const Header = () => {
                         }, 
                     }}>
                         <Typography   variant="h5" sx={{ fontWeight: 'bold', color: '#fff' }}>
-                            Гусь-обнимусь
+                            Гусак-обіймусь
                         </Typography>
                         <Box
                             component="img"
                             src="/images/goosehead.png"
-                            alt="Гусь-обнимусь"
+                            alt="Гусак-обіймусь"
                             sx={{
                                 width: '100%',
                                 maxWidth: '30px',
@@ -108,7 +108,7 @@ const Header = () => {
                     }}
                 >
                     <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#333' }}>
-                        Корзина
+                        Кошик
                     </Typography>
                     <Divider />
                     <CartList />
@@ -119,7 +119,7 @@ const Header = () => {
                         </Box>
                     ) : (
                         <Typography variant="body2" sx={{ color: '#666', textAlign: 'center', marginTop: 'auto' }}>
-                            Корзина пуста
+                            Кошик порожній
                         </Typography>
                     )}
                 </Box>

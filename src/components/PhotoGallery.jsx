@@ -55,7 +55,7 @@ const PhotoGallery = () => {
                     animation: `${fadeIn} 1s ease-out`,
                 }}
             >
-                Наши игрушки вблизи
+                Наші іграшки
             </Typography>
 
             {/* Кастомные кнопки */}

@@ -21,7 +21,7 @@ const Footer = () => {
             fontFamily: 'Comic Sans MS, sans-serif',
           }}
         >
-          Гусь 2024
+          Гусак 2024
         </Typography>
 
         {/* Гифка */}
@@ -47,11 +47,11 @@ const Footer = () => {
 
         {/* Текст */}
         <Typography variant="body1" sx={{ marginBottom: '1rem' }}>
-          Добро пожаловать в мир уюта и веселья! <br/> Все наши товары созданы с любовью.
+        Ласкаво просимо у світ затишку! <br/> Всі наші товари створені з любов'ю.
         </Typography>
 
         <Typography variant="body2" sx={{ opacity: 0.7 }}>
-          © 2024 Volia. Все права защищены.
+          © 2024 Volia. Усі права захищені.
         </Typography>
       </Container>
     </Box>

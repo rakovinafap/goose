@@ -16,7 +16,7 @@ const ProductGrid = forwardRef((props, ref) => {
 
     const handleAddToCart = (product) => {
         addToCart(product);
-        setSnackbarMessage(`${product.name} добавлен в корзину!`);
+        setSnackbarMessage(`${product.name} доданий до кошика!`);
         setSnackbarOpen(true);
     };
 
@@ -38,7 +38,7 @@ const ProductGrid = forwardRef((props, ref) => {
                             marginBottom: '1.5rem',
                         }}
                     >
-                        Выбери гуся
+                        Обери свого гусака
                     </Typography>
                 </Grid>
 
@@ -94,7 +94,7 @@ const ProductGrid = forwardRef((props, ref) => {
                                         )}
                                         {product.top && (
                                             <Chip
-                                                label="Топ продаж"
+                                                label="Топ продажів"
                                                 color="primary"
                                                 size="small"
                                                 sx={{ fontWeight: 'bold', opacity: '0.7', fontSize: '8px', height: '20px'}}
@@ -220,7 +220,7 @@ const ProductGrid = forwardRef((props, ref) => {
                                                 },
                                             }}
                                         >
-                                            {product.available ? 'В корзину' : 'Нема :('}
+                                            {product.available ? 'В кошик' : 'Нема :('}
                                         </Button>
                                     </CardActions>
                                 </Card>

@@ -3,11 +3,11 @@ import { Box, Typography } from "@mui/material";
 
 const Banners = () => {
   const banners = [
-    { bgColor: "linear-gradient(135deg, #FF5733, #FF8D33)", image: "/images/banners/banner1.jpg", alt: "Баннер 1", text: 'Немного о наших игрушках' },
-    { bgColor: "linear-gradient(135deg, #33AFFF, #3399FF)", image: "/images/banners/banner2.jpg", alt: "Баннер 2", text: 'Для любого повода' },
-    { bgColor: "linear-gradient(135deg, #33FF99, #66FFB2)", image: "/images/banners/banner3.jpg", alt: "Баннер 3", text: 'Без дела лежать не будет' },
-    { bgColor: "linear-gradient(135deg, #FFC300, #FFD700)", image: "/images/banners/banner4.jpg", alt: "Баннер 4", text: 'Размерная сетка товара' },
-  ];
+    { bgColor: "linear-gradient(135deg, #FF5733, #FF8D33)", image: "/images/banners/b1.jpg", alt: "Банер 1", text: 'Трохи про наші іграшки' },
+    { bgColor: "linear-gradient(135deg, #33AFFF, #3399FF)", image: "/images/banners/b2.jpg", alt: "Банер 2", text: 'Для будь-якого приводу' },
+    { bgColor: "linear-gradient(135deg, #33FF99, #66FFB2)", image: "/images/banners/b3.jpg", alt: "Банер 3", text: 'Без діла лежати не буде' },
+    { bgColor: "linear-gradient(135deg, #FFC300, #FFD700)", image: "/images/banners/banner4.jpg", alt: "Банер 4", text: 'Розмірна сітка товару' },
+    ];
 
   return (
     <Box>
