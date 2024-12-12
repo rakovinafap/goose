@@ -120,7 +120,7 @@ console.log('Отправляем в телегу:', message)
                 label="Коментар"
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
-                required
+                
             />
             <Button type="submit" variant="contained" color="primary">
                 Оформити замовлення
