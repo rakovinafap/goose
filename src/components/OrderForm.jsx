@@ -28,8 +28,7 @@ const OrderForm = ({ onOrderComplete }) => {
 
     const sendToTelegram = async (orderData) => {
 
-        console.log('TELEGRAM_TOKEN:', process.env.REACT_APP_TELEGRAM_TOKEN);
-        console.log('CHAT_ID:', process.env.REACT_APP_CHAT_ID);
+  
 
         
         const message = `
@@ -44,7 +43,7 @@ const OrderForm = ({ onOrderComplete }) => {
 Товары:
 ${orderData.items.map(item => `${item.name} ${item.size ? item.size : ''} (${item.quantity}) - ${item.price * item.quantity} грн`).join('\n')}
 `;
-console.log('Отправляем в телегу:', message)
+
         try {
             const response = await fetch(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
                 method: 'POST',

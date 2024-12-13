@@ -82,10 +82,9 @@
         "id": 10,
         "name": "Гусак-обіймусь 90см Сірий",
         "price": 549,
-        "priceOld": 749,
+
         "available": false,
-        "top": true,
-        "new": true,
+
         "image": "/images/products/g90g.jpg"
     },
     {
@@ -107,7 +106,7 @@
     {
         "id": 13,
         "name": "Гусак-обіймусь 110см Білий",
-        "price": 845,
+        "price": 749,
         "priceOld": 1149,
         "available": true,
         "top": true,
@@ -116,7 +115,7 @@
     {
         "id": 14,
         "name": "Гусак-обіймусь 110см Сірий",
-        "price": 845,
+        "price": 749,
         "priceOld": 1149,
         "available": true,
         "new": true,
@@ -125,7 +124,7 @@
     {
         "id": 15,
         "name": "Гусак-обіймусь 110см Жовтий",
-        "price": 845,
+        "price": 749,
         "priceOld": 1149,
         "available": true,
         "image": "/images/products/g90y.jpg"
@@ -133,7 +132,7 @@
     {
         "id": 16,
         "name": "Гусак-обіймусь 110см Рожевий",
-        "price": 845,
+        "price": 749,
         "priceOld": 1149,
         "top": true,
         "available": true,
@@ -142,7 +141,7 @@
     {
         "id": 17,
         "name": "Гусак-обіймусь 160см Білий",
-        "price": 1229,
+        "price": 1149,
         "priceOld": 1449,
         "available": true,
         "top": true,
@@ -151,17 +150,16 @@
     {
         "id": 18,
         "name": "Гусак-обіймусь 160см Сірий",
-        "price": 1229,
-        "priceOld": 1449,
+        "price": 1149,
+    
         "available": false,
-        "top": true,
-        "new": true,
+
         "image": "/images/products/g160g.jpg"
     },
     {
         "id": 19,
         "name": "Гусак-обіймусь 160см Жовтий",
-        "price": 1229,
+        "price": 1149,
         "priceOld": 1449,
         "available": true,
         "image": "/images/products/g160y.jpg"
@@ -169,7 +167,7 @@
     {
         "id": 20,
         "name": "Гусак-обіймусь 160см Рожевий",
-        "price": 1229,
+        "price": 1149,
         "priceOld": 1449,
         "top": true,
         "available": true,
@@ -178,7 +176,7 @@
     {
         "id": 21,
         "name": "Гусак-обіймусь 190см Білий",
-        "price": 1799,
+        "price": 1549,
         "priceOld": 2249,
         "available": true,
         "top": true,
@@ -187,7 +185,7 @@
     {
         "id": 22,
         "name": "Гусак-обіймусь 190см Сірий",
-        "price": 1799,
+        "price": 1549,
         "priceOld": 2249,
         "available": true,
         "new": true,
@@ -196,16 +194,15 @@
     {
         "id": 23,
         "name": "Гусак-обіймусь 190см Жовтий",
-        "price": 1799,
+        "price": 1549,
         "priceOld": 2249,
-        "priceOld": 1800,
         "available": true,
         "image": "/images/products/g190y.jpg"
     },
     {
         "id": 24,
         "name": "Гусак-обіймусь 190см Рожевий",
-        "price": 1799,
+        "price": 1549,
         "priceOld": 2249,
         "new": true,
         "top": true,
@@ -217,7 +214,7 @@
         "name": "Гусак-обіймусь 90см з пледом 190х105см Білий",
         "price": 749,
         "priceOld": 1600,
-        "available": false,
+
         "image": "/images/products/gpledW.jpg"
     },
     {
@@ -250,7 +247,7 @@
     {
         "id": 29,
         "name": "Гусак-обіймусь 130см Білий",
-        "price": 949,
+        "price": 899,
         "priceOld": 1149,
         "available": true,
         "top": true,
@@ -259,25 +256,24 @@
     {
         "id": 30,
         "name": "Гусак-обіймусь 130см Сірий",
-        "price": 949,
-        "priceOld": 1149,
+        "price": 899,
+
         "available": false,
         "image": "/images/products/g90g.jpg"
     },
     {
         "id": 31,
         "name": "Гусак-обіймусь 130см Жовтий",
-        "price": 949,
-        "priceOld": 1149,
+        "price": 899,
+
         "available": false,
         "image": "/images/products/g90y.jpg"
     },
     {
         "id": 32,
         "name": "Гусак-обіймусь 130см Рожевий",
-        "price": 949,
-        "priceOld": 1149,
-        "top": false,
+        "price": 899,
+
         "available": false,
         "image": "/images/products/g90r.jpg"
     }
