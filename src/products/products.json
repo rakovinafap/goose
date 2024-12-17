@@ -14,7 +14,7 @@
         "price": 349,
         "priceOld": 549,
         "available": true,
-        "new": true,
+        "new": false,
         "image": "/images/products/g50g.jpg"
     },
     {
@@ -23,7 +23,7 @@
         "price": 349,
         "priceOld": 549,
         "top": true,
-        "available": true,
+        "available": false,
         "image": "/images/products/g50y.jpg"
     },
     {
@@ -31,7 +31,7 @@
         "name": "Гусак-обіймусь 50см Рожевий",
         "price": 349,
         "priceOld": 549,
-        "available": true,
+        "available": false,
         "image": "/images/products/g50r2.jpg"
     },
     {
@@ -92,7 +92,7 @@
         "name": "Гусак-обіймусь 90см Жовтий",
         "price": 549,
         "priceOld": 749,
-        "available": true,
+        "available": false,
         "image": "/images/products/g90y.jpg"
     },
     {
@@ -100,7 +100,7 @@
         "name": "Гусак-обіймусь 90см Рожевий",
         "price": 549,
         "priceOld": 749,
-        "available": true,
+        "available": false,
         "image": "/images/products/g90r.jpg"
     },
     {
