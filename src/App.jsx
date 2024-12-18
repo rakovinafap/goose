@@ -38,7 +38,9 @@ const App = () => {
         <CartProvider>
             <div className="App">
               <Header />
+              
               <HeroSection onScrollToProductGrid={scrollToProductGrid} />
+              <ProductGrid onAddToCart={handleAddToCart} ref={productGridRef} />
               <PhotoGallery />
               <ProductDetails onScrollToProductGrid={scrollToProductGrid} />
               <Banners />
